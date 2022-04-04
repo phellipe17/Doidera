@@ -36,22 +36,19 @@ class _TelaInicialState extends State<TelaInicial> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           _handleOpenCamera(context);
-          // var rnd = Random();
-          // final int _num1 = rnd.nextInt(3);
-          // String fraseta = Doidera(_num1).toString();
-          final String fraseta =
-              '${Doidera().getfrase()}\n${Doidera().getHora()}';
-          debugPrint(fraseta);
-          final snackBar = SnackBar(
-            content: Text(fraseta),
-            action: SnackBarAction(
-              label: 'Dismiss',
-              onPressed: () {
-                // Some code to undo the change.
-              },
-            ),
-          );
-          ScaffoldMessenger.of(context).showSnackBar(snackBar);
+          // final String fraseta =
+          //     '${Doidera().getfrase()}\n${Doidera().getHora()}';
+          // debugPrint(fraseta);
+          // final snackBar = SnackBar(
+          //   content: Text(fraseta),
+          //   action: SnackBarAction(
+          //     label: 'Dismiss',
+          //     onPressed: () {
+          //       // Some code to undo the change.
+          //     },
+          //   ),
+          // );
+          // ScaffoldMessenger.of(context).showSnackBar(snackBar);
         },
         child: const Icon(Icons.add_a_photo),
       ),
