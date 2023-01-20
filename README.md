@@ -1,6 +1,8 @@
 # doidometro1
 
-A new Flutter project.
+Projeto pessoal para treinamento de criação de app em flutter.
+Tem por objetivo de fazer uma "análise" do rosto e dizer o quando você não estava em condições mentais naquele momento.
+
 
 ## Getting Started
 
